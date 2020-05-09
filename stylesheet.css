@@ -1,0 +1,71 @@
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: 'Karla', sans-serif;
+}
+
+h1 {
+  color: #57D8FE;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: #c7ea46;
+}
+
+.top-container {
+  background-color: white;
+}
+
+.top-container-p {
+  color: #AFAFAF;
+}
+
+.bottom-left-container {
+  background-color: hsl(179, 62%, 43%);
+}
+
+.subscription-text{
+  color: hsl(179, 62%, 65%);
+  letter-spacing: 0.1rem;
+}
+
+.cost {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-right: 0.5rem;
+}
+
+.full-access{
+  color: #F8F7F7;
+}
+
+button{
+  background-color: #c7ea46;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  padding: 1.2rem 6rem;
+  border-radius: 7%;
+  font-size: 1rem;
+}
+
+.bottom-right-container {
+  background-color: hsl(179, 62%, 50%);
+}
+
+.bottomright-container-p {
+  color: #F8F7F7;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
