@@ -1,0 +1,139 @@
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: 'Karla', sans-serif;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+}
+
+h2 {
+  margin-top: 0;
+  color: white;
+}
+
+h3 {
+  color: #c7ea46;
+  letter-spacing: 0.16rem;
+  margin-top: 5%;
+}
+
+.major-container{
+  border-bottom-right-radius: 1.6%;
+  border-bottom-left-radius: 1.6%;
+  margin: 10% 20%;
+  box-shadow: -2rem 2rem 2rem #CCCBCB, 2rem 2rem 2rem #CCCBCB;
+  overflow: auto;
+}
+
+/* Top Container */
+
+.top-container {
+  border-top-left-radius: 1.6%;
+  border-top-right-radius: 1.6%;
+  padding: 3% 7% 5%;
+  background-color: white;
+  height: 12.81rem;
+
+}
+
+.top-container-p {
+  color: #AFAFAF;
+  letter-spacing: 0.1rem;
+  line-height: 190%;
+}
+
+/* Bottom-left Container */
+
+.bottom-left-container {
+  border-bottom-left-radius: 1.6%;
+  height: 13.75rem;
+  width: 19.31rem;
+  padding: 3rem;
+  background-color: hsl(179, 62%, 43%);
+  float: left;
+}
+
+.subscription-text{
+  color: hsl(179, 62%, 65%);
+  letter-spacing: 0.1rem;
+}
+
+.cost {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-right: 0.5rem;
+}
+
+.full-access{
+  margin-top: 0.5rem;
+  color: #F8F7F7;
+}
+
+button{
+  background-color: #c7ea46;
+  margin-top: 1.5rem;
+  letter-spacing: 0.05rem;
+  color: white;
+  font-weight: 700;
+  padding: 1.2rem 6rem;
+  border-radius: 10%;
+  font-size: 1rem;
+  border: none;
+  box-shadow: -0.2rem 0.2rem 0.2rem hsl(179, 62%, 35%), 0.2rem 0.2rem 0.2rem hsl(179, 62%, 35%);
+}
+
+button:hover {
+  background-color: #73b504;
+}
+
+/* Bottom-right Container */
+
+.bottom-right-container {
+  border-bottom-right-radius: 1.6%;
+  height: 13.75rem;
+  width: 19.31rem;
+  padding: 3rem;
+  background-color: hsl(179, 62%, 50%);
+  float: left;
+}
+
+.bottomright-container-p {
+  margin-top: 1rem;
+  letter-spacing: 0.08rem;
+  line-height: 1.35rem;
+  color: #F8F7F7;
+}
+
+/* Footer */
+
+.attribution {
+  font-size: 0.68rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* 800px viewport adjustments*/
+
+@media only screen and (max-width: 800px) {
+  .bottom-left-container, .bottom-right-container {
+    width: 79.4%;
+    overflow: hidden;
+  }
+
+  .bottom-left-container {
+    border-bottom-left-radius: 0;
+  }
+
+.top-container {
+  height: 18.12rem;
+}
+
+  .top-container-p {
+    font-size: 2.3vw;
+  }
+}
